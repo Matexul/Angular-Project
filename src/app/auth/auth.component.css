@@ -1,0 +1,80 @@
+/* Center the form and alert */
+.col-xs-12 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 64px;
+}
+
+/* Style the form */
+.form-group label {
+  display: none;
+}
+
+.form-control {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Style the buttons */
+button {
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:first-of-type {
+  margin-right: 8px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background-color: #0062cc;
+  color: #fff;
+}
+
+/* Style the alert */
+.alert {
+  margin-top: 15px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.alert-danger {
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  color: #721c24;
+}
+
+.alert-danger strong {
+  font-weight: bold;
+}
+
+.alert-danger button {
+  margin-left: 10px;
+}
+
+.alert-success {
+  background-color: #d4edda;
+  border: 1px solid #c3e6cb;
+  color: #155724;
+}
+
+.alert-success strong {
+  font-weight: bold;
+}
+
+.alert-success button {
+  margin-left: 10px;
+}

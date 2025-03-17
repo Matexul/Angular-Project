@@ -1,0 +1,40 @@
+a.list-group-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+}
+
+a.list-group-item:hover {
+  background-color: #f8f9fa;
+}
+
+a.list-group-item.active {
+  background-color: #17a2b8;
+  color: white;
+}
+
+a.list-group-item .pull-left {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+a.list-group-item h4 {
+  margin-bottom: 5px;
+}
+
+a.list-group-item p {
+  margin: 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+a.list-group-item .pull-right img {
+  max-height: 75px;
+  max-width: 125px;
+  border-radius: 10%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.4);
+}
